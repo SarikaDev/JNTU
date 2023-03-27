@@ -1,27 +1,32 @@
-import React from 'react'
+import React from "react";
 
 const appHeader = () => {
   return (
-    
     <header>
-      <nav className="main-header navbar navbar-expand navbar-white navbar-light">
-   
-    <ul className="navbar-nav">
-      <li className="nav-item">
-        <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars"></i></a>
-      </li>
-      <li className="nav-item d-none d-sm-inline-block">
-        <a href="index.html" className="nav-link">Home</a>
-      </li>
-      {/* <li className="nav-item d-none d-sm-inline-block">
+      <nav className='main-header navbar navbar-expand navbar-white navbar-light'>
+        <ul className='navbar-nav'>
+          <li className='nav-item'>
+            <a
+              className='nav-link'
+              data-widget='pushmenu'
+              href='#'
+              role='button'
+            >
+              <i className='fas fa-bars'></i>
+            </a>
+          </li>
+          <li className='nav-item d-none d-sm-inline-block'>
+            <a href='index.html' className='nav-link'>
+              Homee
+            </a>
+          </li>
+          {/* <li className="nav-item d-none d-sm-inline-block">
         <a href="#" className="nav-link">Contact</a>
       </li> */}
-    </ul>
+        </ul>
 
-    
-    <ul className="navbar-nav ml-auto">
-      
-      {/* <li className="nav-item">
+        <ul className='navbar-nav ml-auto'>
+          {/* <li className="nav-item">
         <a className="nav-link" data-widget="navbar-search" href="#" role="button">
           <i className="fas fa-search"></i>
         </a>
@@ -42,8 +47,7 @@ const appHeader = () => {
         </div>
       </li> */}
 
-      
-      {/* <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
         <a className="nav-link" data-toggle="dropdown" href="#">
           <i className="far fa-comments"></i>
           <span className="badge badge-danger navbar-badge">3</span>
@@ -100,8 +104,8 @@ const appHeader = () => {
           <a href="#" className="dropdown-item dropdown-footer">See All Messages</a>
         </div>
       </li> */}
-     
-        {/* <li className="nav-item dropdown">
+
+          {/* <li className="nav-item dropdown">
           <a className="nav-link" data-toggle="dropdown" href="#">
             <i className="far fa-bell"></i>
             <span className="badge badge-warning navbar-badge">15</span>
@@ -127,20 +131,26 @@ const appHeader = () => {
             <a href="#" className="dropdown-item dropdown-footer">See All Notifications</a>
           </div>
         </li> */}
-      {/* <li className="nav-item">
+          {/* <li className="nav-item">
         <a className="nav-link" data-widget="fullscreen" href="#" role="button">
           <i className="fas fa-expand-arrows-alt"></i>
         </a>
       </li> */}
-      <li className="nav-item">
-        <a className="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#" role="button">
-          <i className="fas fa-th-large"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
+          <li className='nav-item'>
+            <a
+              className='nav-link'
+              data-widget='control-sidebar'
+              data-controlsidebar-slide='true'
+              href='#'
+              role='button'
+            >
+              <i className='fas fa-th-large'></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
-  )
-}
+  );
+};
 
-export default appHeader
+export default appHeader;
